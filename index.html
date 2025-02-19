@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"rel="stylesheet">
+    <title>Q3PRACTICE4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Doto:wght@100..900&family=Jersey+15&family=Lexend:wght@100..900&family=Lilita+One&family=Pixelify+Sans:wght@400..700&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Silkscreen:wght@400;700&family=Workbench&display=swap" rel="stylesheet">
+</head>
+<body>
+
+                    <br><br>
+
+                    <div style="background-color: rgba(0, 0, 0, 0.6);
+                    font-family: Lexend;
+                    width: 900px;
+                    height: auto;
+                    padding: 10px;
+                    border-color: white;
+                    border-radius: 12px;
+                    box-shadow: 2px 2px 5px rgb(0,0,0, 0.7);
+                    margin: auto;
+                    text-align: center;" class="container2">
+
+                     <style>
+                body {
+                    background-image: url(https://wallpapers.com/images/hd/japan-cyberpunk-q1g5nprf90gzc2a0.jpg);
+                    background-repeat: no repeat;
+                    background-size: cover;
+                    background-attachment: fixed;
+                </style>
+
+                <br> <br>
+
+
+
+
+
+
+
+                        <h1><span style="color: white; font-family: Rubik Mono One; font-size: 50px;"> Mikael Jakson @ MyStateBank Arena</span>  </h1>
+                        <h1><span style="color: lightgray; font-family: workbench; font-size: 30px;"> TicketGod.com</span>  </h1>
+
+                 <h1><span style="color: white; font-family: workbench; font-size: 25px;"> -----------------------------------------------</span>  </h1>
+
+                <br>
+
+                    <center>
+                         <details ontoggle="message(Id1)">
+                        <summary style="color: white; font-size: 30px">Personal Information</summary>
+
+
+
+                        <i id="id1"></i>
+                        <br>
+                        <p style="color: lightgray"> Input Full Name </p>
+                        <form>
+                            <input style="width: 500px;" type="text" id="id1" class="form-control">
+                <br>
+                 <p style="color: lightgray"> Input Email </p>
+                        <form>
+                            <input style="width: 500px;" type="email" id="id1" class="form-control">
+                            <br>
+                          <button type="submit" class="btn btn-success" onclick="displayMessage()">Submit</button> 
+
+
+
+                </i>
+                </form>
+                </details>
+                <br> 
+
+                 <details ontoggle="message(Id1)">
+                        <summary style="color: white; font-size: 30px">Ticket Price</summary> <br>
+                <img style="height: 250px; width: 400px;" src="https://cdn.prod.website-files.com/60bdf353e1bc7a7f1ce77beb/6690b3469f8816157e6710d9_Main%20Arena%20Plan%20for%20Seated%20Concert%202024.jpg" alt="ticket">
+                    <form>
+                        <br>
+                    <label style="color: lightgray;">Select a Seat</label> <br><br>
+                <select style="width: 500px;" class="form-select" id="seat">
+                    <option value="none">Choose</option>
+                    <option value="5999">UL GREEN</option>
+                    <option value="12499">LL PURPLE</option>
+                    <option value="34599">FL RED</option>
+                </select>
+                <br>
+
+                <label id="id3" style="color: lightgray">Select a Discount</label> <br> <br>
+                <select style="width: 500px;" class="form-select" id="discount">
+                    <option value="none">Choose</option>
+                    <option value="0.9">Student Discount</option>
+                    <option value="0.8">Senior Discount</option>
+                    <option value="1">N/A</option>
+                </select>
+                <br>
+
+                <button id="iddiscount" type="button" class="btn btn-success" onclick="showphp()">show</button> 
+
+
+                    </details>
+
+                    <br>
+
+                    <details ontoggle="message(Id2)">
+                        <summary style="color: white; font-size: 30px">Claim Ticket</summary> <br>
+                <img style="height: 250px; width: 600px;" src="https://marketplace.canva.com/EAFrQcVkCik/2/0/1600w/canva-pink-minimalist-event-live-music-festival-ticket-_OjJVtWnLgc.jpg" alt="Italian Trulli">
+                    <br> <br>
+                           <button id="id3" type="button" class="btn btn-success" onclick="claimticket()">Send to Email</button> 
+                    </form>
+
+
+                <script id="id1">
+                    function displayMessage(){
+                        alert("Name and Email recorded."); 
+
+                    var seatPrice =document.getElementById("show").value;
+
+                    var answer = DISCOUNT * MONEY;
+
+                        window.alert("The value of the select variable is" + ans);
+                    }
+
+
+                </script>
+
+
+                <script>
+                    function showphp() {
+                    
+                        var seatPrice = parseFloat(document.getElementById("seat").value);
+                        var discount = parseFloat(document.getElementById("discount").value);
+
+                     
+                        var discountedPrice = seatPrice * discount;
+                        alert("Ticket Price = " + discountedPrice);
+                    }
+                </script>
+
+                <script id="id2">
+                function displayMessage(){
+                    alert ("Saved!")
+                }
+
+                function claimticket(){
+                        window.alert("Your Ticket has been sent to your email!")
+                    }
+
+                </script>
+                </center>
+                </div>
+
+                <!--
+
+                SOURCES:
+
+                 1. CGPT - LINE 66 - PROMPT:"<button type="submit" class="btn btn-success" value="submit()"> Submit </button>
+                    make it so that when clicked, it will say what i want to type" 
+
+                 2. W3SCHOOLS - LINE 116 - NEEDED TO KNOW WHICH FUNCTION WORKS WITH LINE 66 
+
+                 3. CGPT - LINE 128 - 138 
+
+                 ALL AI APPLICATIONS USED ARE FOR REVISIONS AND CODE CHECKING. NO DIRECT COPY PASTE. --> 
+
+                </body>
+                </html>
